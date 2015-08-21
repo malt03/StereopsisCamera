@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED210DD21B86C0E7008D80EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED210DD11B86C0E7008D80EE /* AppDelegate.swift */; };
+		ED210DD71B86C0E7008D80EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED210DD51B86C0E7008D80EE /* Main.storyboard */; };
+		ED210DD91B86C0E7008D80EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED210DD81B86C0E7008D80EE /* Images.xcassets */; };
+		ED210DDC1B86C0E7008D80EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED210DDA1B86C0E7008D80EE /* LaunchScreen.xib */; };
+		ED210DE81B86C0E7008D80EE /* StereopsisCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED210DE71B86C0E7008D80EE /* StereopsisCameraTests.swift */; };
+		ED210DF21B86C32E008D80EE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED210DF11B86C32E008D80EE /* CameraViewController.swift */; };
+		ED210DFE1B870089008D80EE /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED210DFD1B870089008D80EE /* PreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED210DE21B86C0E7008D80EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED210DC41B86C0E7008D80EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED210DCB1B86C0E7008D80EE;
+			remoteInfo = StereopsisCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED210DCC1B86C0E7008D80EE /* StereopsisCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StereopsisCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED210DD01B86C0E7008D80EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED210DD11B86C0E7008D80EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED210DD61B86C0E7008D80EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED210DD81B86C0E7008D80EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED210DDB1B86C0E7008D80EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED210DE11B86C0E7008D80EE /* StereopsisCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StereopsisCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED210DE61B86C0E7008D80EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED210DE71B86C0E7008D80EE /* StereopsisCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereopsisCameraTests.swift; sourceTree = "<group>"; };
+		ED210DF11B86C32E008D80EE /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		ED210DF51B86DB81008D80EE /* StereopsisCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StereopsisCamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED210DFD1B870089008D80EE /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED210DC91B86C0E7008D80EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED210DDE1B86C0E7008D80EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED210DC31B86C0E7008D80EE = {
+			isa = PBXGroup;
+			children = (
+				ED210DCE1B86C0E7008D80EE /* StereopsisCamera */,
+				ED210DE41B86C0E7008D80EE /* StereopsisCameraTests */,
+				ED210DCD1B86C0E7008D80EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED210DCD1B86C0E7008D80EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED210DCC1B86C0E7008D80EE /* StereopsisCamera.app */,
+				ED210DE11B86C0E7008D80EE /* StereopsisCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED210DCE1B86C0E7008D80EE /* StereopsisCamera */ = {
+			isa = PBXGroup;
+			children = (
+				ED210DD11B86C0E7008D80EE /* AppDelegate.swift */,
+				ED210DF11B86C32E008D80EE /* CameraViewController.swift */,
+				ED210DFD1B870089008D80EE /* PreviewView.swift */,
+				ED210DD51B86C0E7008D80EE /* Main.storyboard */,
+				ED210DD81B86C0E7008D80EE /* Images.xcassets */,
+				ED210DDA1B86C0E7008D80EE /* LaunchScreen.xib */,
+				ED210DCF1B86C0E7008D80EE /* Supporting Files */,
+				ED210DF51B86DB81008D80EE /* StereopsisCamera-Bridging-Header.h */,
+			);
+			path = StereopsisCamera;
+			sourceTree = "<group>";
+		};
+		ED210DCF1B86C0E7008D80EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED210DD01B86C0E7008D80EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED210DE41B86C0E7008D80EE /* StereopsisCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED210DE71B86C0E7008D80EE /* StereopsisCameraTests.swift */,
+				ED210DE51B86C0E7008D80EE /* Supporting Files */,
+			);
+			path = StereopsisCameraTests;
+			sourceTree = "<group>";
+		};
+		ED210DE51B86C0E7008D80EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED210DE61B86C0E7008D80EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED210DCB1B86C0E7008D80EE /* StereopsisCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED210DEB1B86C0E7008D80EE /* Build configuration list for PBXNativeTarget "StereopsisCamera" */;
+			buildPhases = (
+				ED210DC81B86C0E7008D80EE /* Sources */,
+				ED210DC91B86C0E7008D80EE /* Frameworks */,
+				ED210DCA1B86C0E7008D80EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StereopsisCamera;
+			productName = StereopsisCamera;
+			productReference = ED210DCC1B86C0E7008D80EE /* StereopsisCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED210DE01B86C0E7008D80EE /* StereopsisCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED210DEE1B86C0E7008D80EE /* Build configuration list for PBXNativeTarget "StereopsisCameraTests" */;
+			buildPhases = (
+				ED210DDD1B86C0E7008D80EE /* Sources */,
+				ED210DDE1B86C0E7008D80EE /* Frameworks */,
+				ED210DDF1B86C0E7008D80EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED210DE31B86C0E7008D80EE /* PBXTargetDependency */,
+			);
+			name = StereopsisCameraTests;
+			productName = StereopsisCameraTests;
+			productReference = ED210DE11B86C0E7008D80EE /* StereopsisCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED210DC41B86C0E7008D80EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Koji Murata";
+				TargetAttributes = {
+					ED210DCB1B86C0E7008D80EE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ED210DE01B86C0E7008D80EE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ED210DCB1B86C0E7008D80EE;
+					};
+				};
+			};
+			buildConfigurationList = ED210DC71B86C0E7008D80EE /* Build configuration list for PBXProject "StereopsisCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED210DC31B86C0E7008D80EE;
+			productRefGroup = ED210DCD1B86C0E7008D80EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED210DCB1B86C0E7008D80EE /* StereopsisCamera */,
+				ED210DE01B86C0E7008D80EE /* StereopsisCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED210DCA1B86C0E7008D80EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED210DD71B86C0E7008D80EE /* Main.storyboard in Resources */,
+				ED210DDC1B86C0E7008D80EE /* LaunchScreen.xib in Resources */,
+				ED210DD91B86C0E7008D80EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED210DDF1B86C0E7008D80EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED210DC81B86C0E7008D80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED210DD21B86C0E7008D80EE /* AppDelegate.swift in Sources */,
+				ED210DF21B86C32E008D80EE /* CameraViewController.swift in Sources */,
+				ED210DFE1B870089008D80EE /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED210DDD1B86C0E7008D80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED210DE81B86C0E7008D80EE /* StereopsisCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED210DE31B86C0E7008D80EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED210DCB1B86C0E7008D80EE /* StereopsisCamera */;
+			targetProxy = ED210DE21B86C0E7008D80EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED210DD51B86C0E7008D80EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED210DD61B86C0E7008D80EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED210DDA1B86C0E7008D80EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED210DDB1B86C0E7008D80EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED210DE91B86C0E7008D80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED210DEA1B86C0E7008D80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED210DEC1B86C0E7008D80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = StereopsisCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StereopsisCamera/StereopsisCamera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED210DED1B86C0E7008D80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = StereopsisCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StereopsisCamera/StereopsisCamera-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ED210DEF1B86C0E7008D80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StereopsisCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StereopsisCamera.app/StereopsisCamera";
+			};
+			name = Debug;
+		};
+		ED210DF01B86C0E7008D80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StereopsisCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StereopsisCamera.app/StereopsisCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED210DC71B86C0E7008D80EE /* Build configuration list for PBXProject "StereopsisCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED210DE91B86C0E7008D80EE /* Debug */,
+				ED210DEA1B86C0E7008D80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED210DEB1B86C0E7008D80EE /* Build configuration list for PBXNativeTarget "StereopsisCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED210DEC1B86C0E7008D80EE /* Debug */,
+				ED210DED1B86C0E7008D80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED210DEE1B86C0E7008D80EE /* Build configuration list for PBXNativeTarget "StereopsisCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED210DEF1B86C0E7008D80EE /* Debug */,
+				ED210DF01B86C0E7008D80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED210DC41B86C0E7008D80EE /* Project object */;
+}

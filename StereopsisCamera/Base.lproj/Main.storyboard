@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cq1-QX-p6E">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="UQh-nR-gas">
+            <objects>
+                <viewController id="cq1-QX-p6E" customClass="CameraViewController" customModule="StereopsisCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Za8-Y4-f9h"/>
+                        <viewControllerLayoutGuide type="bottom" id="dDg-9s-bDm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pQ8-DX-74w">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dOu-cA-kka">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OOG-zW-Rpu">
+                                <rect key="frame" x="300" y="0.0" width="300" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCP-H6-7uy" customClass="PreviewView" customModule="StereopsisCamera" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TCP-H6-7uy" secondAttribute="trailing" id="4y8-3l-iIz"/>
+                            <constraint firstItem="OOG-zW-Rpu" firstAttribute="top" secondItem="pQ8-DX-74w" secondAttribute="top" id="5Yt-zZ-q6H"/>
+                            <constraint firstItem="dOu-cA-kka" firstAttribute="leading" secondItem="pQ8-DX-74w" secondAttribute="leading" id="6ZV-p4-6hP"/>
+                            <constraint firstItem="dDg-9s-bDm" firstAttribute="top" secondItem="TCP-H6-7uy" secondAttribute="bottom" id="8lS-wH-CCU"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="width" secondItem="dOu-cA-kka" secondAttribute="width" id="BAU-1S-wax"/>
+                            <constraint firstItem="dOu-cA-kka" firstAttribute="top" secondItem="pQ8-DX-74w" secondAttribute="top" id="BN5-cy-f3I"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="top" secondItem="pQ8-DX-74w" secondAttribute="top" id="LHk-vo-Yqp"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="height" secondItem="dOu-cA-kka" secondAttribute="height" id="Lqe-Bh-bg9"/>
+                            <constraint firstAttribute="trailing" secondItem="OOG-zW-Rpu" secondAttribute="trailing" id="TL2-8O-uIh"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="leading" secondItem="pQ8-DX-74w" secondAttribute="leading" id="e3i-EZ-Nmb"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="width" secondItem="OOG-zW-Rpu" secondAttribute="width" id="nQN-dv-QiC"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="height" secondItem="OOG-zW-Rpu" secondAttribute="height" id="zaU-6s-kb9"/>
+                            <constraint firstItem="TCP-H6-7uy" firstAttribute="width" secondItem="pQ8-DX-74w" secondAttribute="width" multiplier="1:2" id="zhB-3l-IDW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4y8-3l-iIz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="dOu-cA-kka" id="I8c-pU-Kk4"/>
+                        <outlet property="presentViewLeadingConstraint" destination="e3i-EZ-Nmb" id="BO1-SU-ggR"/>
+                        <outlet property="presentViewTrailingConstraint" destination="4y8-3l-iIz" id="PEF-xp-RhW"/>
+                        <outlet property="previewView" destination="TCP-H6-7uy" id="8dY-C8-dRO"/>
+                        <outlet property="rightImageView" destination="OOG-zW-Rpu" id="Ais-A7-33g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="doy-6U-gO5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294" y="415"/>
+        </scene>
+    </scenes>
+</document>
